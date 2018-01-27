@@ -1,0 +1,24 @@
+{
+  "name": "Constructor-Hangman",
+  "version": "1.0.0",
+  "description": "Hangman Command-Line game using constructor functions",
+  "main": "game.js",
+  "dependencies": {
+    "inquirer": "^5.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielladt/Constructor-Hangman.git"
+  },
+  "keywords": [],
+  "author": "Daniella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielladt/Constructor-Hangman/issues"
+  },
+  "homepage": "https://github.com/danielladt/Constructor-Hangman#readme"
+}
