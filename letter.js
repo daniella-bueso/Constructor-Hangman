@@ -1,4 +1,4 @@
-//Functions for letters corresponding to random word
+//Function for letters corresponding to random word
 function Letter(letter) {
     this.letter = letter;
     if(this.letter.match(/^[a-zA-Z]$/)) {
@@ -24,5 +24,6 @@ Letter.prototype.toString = function() {
       return "_";
     }
 }
-  
+
+  //Exports the function Letter
   module.exports = Letter;

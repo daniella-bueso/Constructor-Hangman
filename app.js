@@ -21,4 +21,5 @@ function playGame() {
   });
 }
 
+//Runs the function
 playGame();

@@ -7,10 +7,10 @@ var inquirer = require('inquirer');
 //function for game, selects a random Word from Word list
 function Hangman() {
   this.Word = new Word(WordList[Math.floor(Math.random() * WordList.length)]);
-  this.guesses = 10;
+  this.guesses = 15;
 }
 //displays message if game is running
-console.log("hangman is running")
+console.log("Hangman game has started!")
 
 //Function for when game is playing
 Hangman.prototype.play = function(game) {
@@ -52,6 +52,5 @@ Hangman.prototype.getGuess = function(game) {
   });
 }
 
-//console.log("working?")
-
+//Exports Hangman function
 module.exports = Hangman;

@@ -36,4 +36,5 @@ Word.prototype.solved = function() {
   return solved;
 }
 
+//Exports the function Word
 module.exports = Word;
